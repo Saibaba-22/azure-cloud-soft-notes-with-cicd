@@ -2,32 +2,40 @@
 
 > **Learn Cloud • Automate Infrastructure • Deploy Applications • Monitor Systems**
 
-A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Docker, Kubernetes, Ansible, Prometheus, Azure DevOps, and GitHub Actions**.
+A practical learning path covering **Cloud Computing, Microsoft Azure, Terraform, Git, Docker, Kubernetes, Ansible, Prometheus, Azure DevOps, and GitHub Actions**.
 
 ---
 
-## 📚 Course Contents
+# 📚 Course Contents
 
-### 1. ☁️ Cloud Computing
+## 1. ☁️ Cloud Computing
 
 - What is a Data Center
 - Parts of a Data Center
 - On-Premises Data Center
 - Cloud Data Center
 - Cloud Service Models
-- Basic Networking
-  - IP Address
-  - IP Address Classes
-  - CIDR
-  - DNS
-- Important Cloud Keywords & Definitions
+
+### 🌐 Basic Networking
+
+- IP Address
+- IP Address Classes
+- CIDR
+- DNS
+
+### 📖 Fundamentals
+
+- Important Cloud Keywords
+- Cloud Definitions
+- Basic Infrastructure Concepts
 
 ---
 
-### 2. 🔷 Microsoft Azure
+# 2. 🔷 Microsoft Azure
 
-#### Azure Fundamentals
-- Resource Groups
+## 2.1 Azure Fundamentals
+
+- Resource Group
 - Azure Account Creation
 - Azure Basic Networking
 - IP Address
@@ -35,11 +43,12 @@ A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Doc
 - DNS – Domain Name System
 - VNet – Virtual Network
 
-#### Azure Networking
+## 2.2 Azure Networking
+
 - VNet Peering
 - NSG – Network Security Group
-  - NIC-Level NSG
-  - Subnet-Level NSG
+  - NSG at NIC Level
+  - NSG at Subnet Level
 - ASG – Application Security Group
 - Azure Load Balancer
 - Azure Application Gateway
@@ -48,32 +57,43 @@ A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Doc
 - Hub & Spoke Architecture
 - Azure VPN
 
-#### Azure Compute & Applications
+## 2.3 Azure Compute & Applications
+
 - Azure Virtual Machines
 - Image Creation
 - VMSS – Virtual Machine Scale Sets
 - Azure App Service
 - Azure Bastion
 
-#### Azure Storage & Database
+## 2.4 Azure Storage & Database
+
 - Storage Account
-- Storage Account Access & Identity Management
-- ASQL – Azure SQL
+- Storage Account Access
+- Identity Management
+- Azure SQL
 
-#### Azure Backup & Disaster Recovery
-- RSV – Recovery Services Vault
+## 2.5 Azure Backup & Disaster Recovery
+
+- Recovery Services Vault
 - Recovery Services Vault Recovery
+- Backup & Restore
+- Site Recovery
+- Geo-Replication
+- Test Failover
+- DR Drill Activity
 
-#### Azure Identity & Monitoring
-- AAD – Azure Active Directory / Microsoft Entra ID
+## 2.6 Azure Identity & Monitoring
+
+- Azure Active Directory / Microsoft Entra ID
 - Azure Monitor
 
-#### Azure Automation
+## 2.7 Azure Automation
+
 - Azure Logic Apps
 
 ---
 
-### 3. 🏗️ Terraform
+# 3. 🏗️ Terraform
 
 - Introduction to Terraform
 - Azure VNet Peering
@@ -83,35 +103,39 @@ A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Doc
 - Terraform Workspaces
 - Depends On
 - Data Blocks
-- Terraform Import
+- Terraform Import Command
 - Terraform Modules
 - Terraform Provisioners
 
 ---
 
-### 4. 🔀 Git & GitHub
+# 4. 🔀 Git & GitHub
 
-#### Version Control
+## 4.1 Version Control
+
 - Introduction to Version Control
 - Centralized Version Control System
 - Distributed Version Control System
 
-#### Git & GitHub
+## 4.2 Git & GitHub
+
 - GitHub Introduction
 - Git Areas
 - Git Installation
 - Personal Access Token (PAT)
-- Basic Git Commands
+- Git Basic Commands
 - Git Branching Strategy
 - Merge Conflicts
 - Pull Requests
-- Hotfix
-- Token Management
+- Hotfix Requests
+- Git Token Management
+- Add New Token
+- Remove Old Token
 - Git Commands Reference
 
 ---
 
-### 5. 🐳 Docker
+# 5. 🐳 Docker
 
 - Docker Introduction
 - Docker Architecture
@@ -129,7 +153,7 @@ A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Doc
 
 ---
 
-### 6. ☸️ Kubernetes
+# 6. ☸️ Kubernetes
 
 - Docker vs Kubernetes
 - Kubernetes Introduction
@@ -142,7 +166,7 @@ A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Doc
 
 ---
 
-### 7. ⚙️ Ansible
+# 7. ⚙️ Ansible
 
 - Ansible Introduction
 - Playbooks
@@ -151,9 +175,10 @@ A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Doc
 
 ---
 
-### 8. 📊 Prometheus & Grafana
+# 8. 📊 Prometheus & Grafana
 
-#### Prometheus
+## 8.1 Prometheus
+
 - Prometheus Introduction
 - Features & Components
 - Prometheus Architecture
@@ -161,14 +186,17 @@ A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Doc
 - Node Exporter
 - Alertmanager
 
-#### Grafana
+## 8.2 Grafana
+
 - Grafana Introduction
 - Connecting Grafana with Prometheus
-- Monitoring & Visualization
+- Monitoring
+- Visualization
+- Dashboards
 
 ---
 
-### 9. 🔷 Azure DevOps
+# 9. 🔷 Azure DevOps
 
 - Azure DevOps Introduction
 - Account Creation
@@ -180,7 +208,7 @@ A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Doc
 
 ---
 
-### 10. 🚀 GitHub Actions
+# 10. 🚀 GitHub Actions
 
 - GitHub Actions Introduction
 - Workflows
@@ -208,83 +236,93 @@ A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Doc
 | ⚙️ Configuration Management | Ansible |
 | 📈 Monitoring | Prometheus |
 | 📊 Visualization | Grafana |
-| 🚀 CI/CD 🔄 | Azure DevOps, GitHub Actions |
-| 💻 Automation | YAML, Terraform, Ansible |
+| 🔄 DevOps | Azure DevOps |
+| 🚀 CI/CD | GitHub Actions |
+| 📄 Configuration | YAML |
+| 🤖 Automation | Terraform & Ansible |
 
 ---
 
-# 🎯 Career Roles You Can Target
+# 🎯 Career Roles
 
-The combination of these technologies can help you build skills for multiple infrastructure, cloud, and DevOps-oriented roles.
+These technologies can help build skills for various **Cloud, DevOps, Infrastructure, Networking, System Administration, and Monitoring** roles.
 
-### ☁️ Cloud Roles
-- **Cloud Engineer**
-- **Azure Cloud Engineer**
-- **Cloud Infrastructure Engineer**
-- **Cloud Support Engineer**
-- **Cloud Administrator**
+## ☁️ Cloud Roles
 
-### 🚀 DevOps Roles
-- **DevOps Engineer**
-- **Junior DevOps Engineer**
-- **DevOps Support Engineer**
-- **CI/CD Engineer**
-- **Build & Release Engineer**
+- Cloud Engineer
+- Azure Cloud Engineer
+- Cloud Infrastructure Engineer
+- Cloud Support Engineer
+- Cloud Administrator
 
-### 🏗️ Infrastructure & Automation Roles
-- **Infrastructure Engineer**
-- **Infrastructure Automation Engineer**
-- **Terraform Engineer**
-- **Infrastructure as Code (IaC) Engineer**
-- **Configuration Management Engineer**
+## 🚀 DevOps Roles
 
-### 🐳 Container & Platform Roles
-- **Docker Engineer**
-- **Kubernetes Engineer**
-- **Container Platform Engineer**
-- **Platform Engineer**
-- **Junior Site Reliability Engineer (SRE)**
+- DevOps Engineer
+- Junior DevOps Engineer
+- DevOps Support Engineer
+- CI/CD Engineer
+- Build & Release Engineer
 
-### 🌐 Networking Roles
-- **Cloud Network Engineer**
-- **Network Administrator**
-- **Cloud Network Administrator**
-- **Network Support Engineer**
+## 🏗️ Infrastructure & Automation Roles
 
-### 🖥️ System Administration Roles
-- **Linux Administrator**
-- **Linux System Administrator**
-- **Windows Administrator**
-- **System Administrator**
+- Infrastructure Engineer
+- Infrastructure Automation Engineer
+- Terraform Engineer
+- Infrastructure as Code (IaC) Engineer
+- Configuration Management Engineer
 
-### 💾 Storage & Database Roles
-- **Storage Administrator**
-- **Cloud Storage Engineer**
-- **Database Administrator (DBA)**
-- **Cloud Database Support Engineer**
+## 🐳 Container & Platform Roles
 
-### 📊 Monitoring Roles
-- **Monitoring Engineer**
-- **Cloud Monitoring Engineer**
-- **Observability Engineer**
-- **Junior SRE**
+- Docker Engineer
+- Kubernetes Engineer
+- Container Platform Engineer
+- Platform Engineer
+- Junior Site Reliability Engineer (SRE)
+
+## 🌐 Networking Roles
+
+- Cloud Network Engineer
+- Network Administrator
+- Cloud Network Administrator
+- Network Support Engineer
+
+## 🖥️ System Administration Roles
+
+- Linux Administrator
+- Linux System Administrator
+- Windows Administrator
+- System Administrator
+
+## 💾 Storage & Database Roles
+
+- Storage Administrator
+- Cloud Storage Engineer
+- Database Administrator (DBA)
+- Cloud Database Support Engineer
+
+## 📊 Monitoring Roles
+
+- Monitoring Engineer
+- Cloud Monitoring Engineer
+- Observability Engineer
+- Junior SRE
 
 ---
 
-# 👨‍💻 Technical Domains Covered
+# 🛡️ Technical Domains Covered
 
-- ☁️ **Cloud Computing**
-- 🌐 **Networking**
-- 🖥️ **System Administration**
-- 💾 **Storage**
-- 🗄️ **Database**
-- 🔐 **Security & Identity**
-- 🏗️ **Infrastructure as Code**
-- 🐳 **Containerization**
-- ☸️ **Container Orchestration**
-- ⚙️ **Configuration Management**
-- 📊 **Monitoring & Observability**
-- 🚀 **DevOps & CI/CD**
+- ☁️ Cloud Computing
+- 🌐 Networking
+- 🖥️ System Administration
+- 💾 Storage
+- 🗄️ Database
+- 🔐 Security & Identity
+- 🏗️ Infrastructure as Code
+- 🐳 Containerization
+- ☸️ Container Orchestration
+- ⚙️ Configuration Management
+- 📊 Monitoring & Observability
+- 🚀 DevOps & CI/CD
 
 ---
 
@@ -296,40 +334,31 @@ By completing these topics, you can develop practical knowledge in:
 
 ---
 
-## ⭐ Career Skill Stack
+# ⭐ Career Skill Stack
 
 ```text
-☁️ Azure
-   +
-🏗️ Terraform
-   +
-🔀 Git & GitHub
-   +
-🐳 Docker
-   +
-☸️ Kubernetes
-   +
-⚙️ Ansible
-   +
-📊 Prometheus & Grafana
-   +
-🚀 Azure DevOps
-   +
-🔄 GitHub Actions
-
----
-
-## 👨‍💻 Created By
-
-### **Saibaba Kola**
-
-**Cloud & DevOps Engineer**
-
-> Built with dedication, continuous learning, and hands-on practice in Cloud, DevOps, Automation, and Infrastructure.
-
-**Technologies:**  
-☁️ Azure • 🏗️ Terraform • 🔀 Git • 🐳 Docker • ☸️ Kubernetes • ⚙️ Ansible • 📊 Prometheus • 📈 Grafana • 🚀 Azure DevOps • GitHub Actions
-
----
-
-⭐ **Made with ❤️ by Saibaba Kola**
+                 ☁️ AZURE
+                    │
+                    ▼
+              🏗️ TERRAFORM
+                    │
+                    ▼
+              🔀 GIT & GITHUB
+                    │
+                    ▼
+                 🐳 DOCKER
+                    │
+                    ▼
+              ☸️ KUBERNETES
+                    │
+                    ▼
+                ⚙️ ANSIBLE
+                    │
+                    ▼
+          📊 PROMETHEUS & GRAFANA
+                    │
+                    ▼
+             🔷 AZURE DEVOPS
+                    │
+                    ▼
+             🚀 GITHUB ACTIONS
