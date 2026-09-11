@@ -1,14 +1,37 @@
 # ☁️ Cloud & DevOps Engineering
 
-> **Learn Cloud • Automate Infrastructure • Deploy Applications • Monitor Systems**
+<p align="center">
+  <b>Cloud • Infrastructure • Automation • Containers • Monitoring • DevOps</b>
+</p>
 
-A practical learning path covering **Cloud Computing, Microsoft Azure, Terraform, Git, Docker, Kubernetes, Ansible, Prometheus, Azure DevOps, and GitHub Actions**.
+<p align="center">
+  A practical learning path covering Cloud Computing, Azure, Terraform, Git, Docker, Kubernetes, Ansible, Prometheus, Azure DevOps, and GitHub Actions.
+</p>
 
 ---
 
-# 📚 Course Contents
+## 📚 Table of Contents
 
-## 1. ☁️ Cloud Computing
+- [☁️ Cloud Computing](#️-cloud-computing)
+- [🔷 Microsoft Azure](#-microsoft-azure)
+- [🏗️ Terraform](#️-terraform)
+- [🔀 Git & GitHub](#-git--github)
+- [🐳 Docker](#-docker)
+- [☸️ Kubernetes](#️-kubernetes)
+- [⚙️ Ansible](#️-ansible)
+- [📊 Prometheus & Grafana](#-prometheus--grafana)
+- [🔷 Azure DevOps](#-azure-devops)
+- [🚀 GitHub Actions](#-github-actions)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [💼 Career Roles](#-career-roles)
+- [🎯 Skills Covered](#-skills-covered)
+- [👨‍💻 Created By](#-created-by)
+
+---
+
+# ☁️ Cloud Computing
+
+## Data Center
 
 - What is a Data Center
 - Parts of a Data Center
@@ -16,24 +39,25 @@ A practical learning path covering **Cloud Computing, Microsoft Azure, Terraform
 - Cloud Data Center
 - Cloud Service Models
 
-### 🌐 Basic Networking
+## 🌐 Basic Networking
 
 - IP Address
 - IP Address Classes
 - CIDR
 - DNS
+- Basic Networking Concepts
 
-### 📖 Fundamentals
+## 📖 Fundamentals
 
 - Important Cloud Keywords
-- Cloud Definitions
-- Basic Infrastructure Concepts
+- Cloud Terminology
+- Basic Infrastructure Definitions
 
 ---
 
-# 2. 🔷 Microsoft Azure
+# 🔷 Microsoft Azure
 
-## 2.1 Azure Fundamentals
+## Azure Fundamentals
 
 - Resource Group
 - Azure Account Creation
@@ -43,7 +67,7 @@ A practical learning path covering **Cloud Computing, Microsoft Azure, Terraform
 - DNS – Domain Name System
 - VNet – Virtual Network
 
-## 2.2 Azure Networking
+## 🌐 Azure Networking
 
 - VNet Peering
 - NSG – Network Security Group
@@ -57,7 +81,7 @@ A practical learning path covering **Cloud Computing, Microsoft Azure, Terraform
 - Hub & Spoke Architecture
 - Azure VPN
 
-## 2.3 Azure Compute & Applications
+## 🖥️ Azure Compute & Applications
 
 - Azure Virtual Machines
 - Image Creation
@@ -65,14 +89,14 @@ A practical learning path covering **Cloud Computing, Microsoft Azure, Terraform
 - Azure App Service
 - Azure Bastion
 
-## 2.4 Azure Storage & Database
+## 💾 Azure Storage & Database
 
 - Storage Account
 - Storage Account Access
 - Identity Management
 - Azure SQL
 
-## 2.5 Azure Backup & Disaster Recovery
+## 🔄 Azure Backup & Disaster Recovery
 
 - Recovery Services Vault
 - Recovery Services Vault Recovery
@@ -82,113 +106,169 @@ A practical learning path covering **Cloud Computing, Microsoft Azure, Terraform
 - Test Failover
 - DR Drill Activity
 
-## 2.6 Azure Identity & Monitoring
+## 🔐 Azure Identity & Monitoring
 
-- Azure Active Directory / Microsoft Entra ID
+- Azure Active Directory
+- Microsoft Entra ID
 - Azure Monitor
 
-## 2.7 Azure Automation
+## ⚙️ Azure Automation
 
 - Azure Logic Apps
 
 ---
 
-# 3. 🏗️ Terraform
+# 🏗️ Terraform
+
+## Terraform Fundamentals
 
 - Introduction to Terraform
+- Terraform Architecture
+- Terraform Configuration
+
+## Terraform with Azure
+
 - Azure VNet Peering
-- Terraform Variables
 - Virtual Machine Creation
-- Terraform Data Types
-- Terraform Workspaces
+
+## Terraform Concepts
+
+- Variables
+- Data Types
+- Workspaces
 - Depends On
 - Data Blocks
-- Terraform Import Command
-- Terraform Modules
-- Terraform Provisioners
+- Import Command
+- Modules
+- Provisioners
 
 ---
 
-# 4. 🔀 Git & GitHub
+# 🔀 Git & GitHub
 
-## 4.1 Version Control
+## Version Control
 
 - Introduction to Version Control
 - Centralized Version Control System
 - Distributed Version Control System
 
-## 4.2 Git & GitHub
+## Git Fundamentals
+
+- Git Installation
+- Git Areas
+- Git Basic Commands
+- Git Total Commands
+
+## GitHub
 
 - GitHub Introduction
-- Git Areas
-- Git Installation
-- Personal Access Token (PAT)
-- Git Basic Commands
+- Personal Access Token
+- PAT – Personal Access Token
+- Token Management
+- Add New Token
+- Remove Old Token
+
+## Git Branching & Collaboration
+
 - Git Branching Strategy
 - Merge Conflicts
 - Pull Requests
 - Hotfix Requests
-- Git Token Management
-- Add New Token
-- Remove Old Token
-- Git Commands Reference
 
 ---
 
-# 5. 🐳 Docker
+# 🐳 Docker
+
+## Docker Fundamentals
 
 - Docker Introduction
 - Docker Architecture
 - Docker Internal Architecture
 - Docker Installation
-- Docker Image Operations
-- Docker Container Operations
-- Docker Networks
-- Docker Volumes
-- Dockerfile
+
+## Docker Images
+
+- Image Operations
 - Image Creation
-- Docker Image Optimization
+- Dockerfile
+- Image Optimization
 - Multi-Stage Dockerfile
+
+## Docker Containers
+
+- Container Operations
+- Container Lifecycle
+- Container Management
+
+## Docker Networking & Storage
+
+- Docker Networks
+- Docker Network Types
+- Docker Volumes
+- Docker Volume Management
+
+## Docker Compose
+
 - Docker Compose
+- Compose Configuration
+- Multi-Container Applications
 
 ---
 
-# 6. ☸️ Kubernetes
+# ☸️ Kubernetes
+
+## Kubernetes Fundamentals
 
 - Docker vs Kubernetes
 - Kubernetes Introduction
 - Kubernetes Architecture
+- Kubernetes Components
+
+## Kubernetes Services
+
 - Kubernetes Services
 - Service LoadBalancer
-- Ingress
+- Service Ingress
+
+## Kubernetes Management
+
 - Namespaces
 - Helm Charts
+- Application Deployment
 
 ---
 
-# 7. ⚙️ Ansible
+# ⚙️ Ansible
+
+## Ansible Fundamentals
 
 - Ansible Introduction
+- Ansible Architecture
+
+## Ansible Automation
+
 - Playbooks
 - Roles
 - Shell Module
 
 ---
 
-# 8. 📊 Prometheus & Grafana
+# 📊 Prometheus & Grafana
 
-## 8.1 Prometheus
+## Prometheus
 
 - Prometheus Introduction
-- Features & Components
+- Features
+- Components
 - Prometheus Architecture
 - Internal Architecture
 - Node Exporter
 - Alertmanager
 
-## 8.2 Grafana
+## Grafana
 
 - Grafana Introduction
+- Grafana Architecture
 - Connecting Grafana with Prometheus
 - Monitoring
 - Visualization
@@ -196,56 +276,72 @@ A practical learning path covering **Cloud Computing, Microsoft Azure, Terraform
 
 ---
 
-# 9. 🔷 Azure DevOps
+# 🔷 Azure DevOps
+
+## Azure DevOps Fundamentals
 
 - Azure DevOps Introduction
 - Account Creation
 - Azure DevOps Components
+- Options & Components Briefing
+
+## Azure DevOps Infrastructure
+
 - Self-Hosted Agent
 - Terraform Deployment Using YAML
+
+## DevOps Tools
+
 - End-to-End CI/CD
 - Azure Boards
 
 ---
 
-# 10. 🚀 GitHub Actions
+# 🚀 GitHub Actions
+
+## GitHub Actions Fundamentals
 
 - GitHub Actions Introduction
-- Workflows
+- Workflow
 - GitHub Actions Architecture
 - Internal Architecture
-- Creating Action Files
+
+## GitHub Actions Configuration
+
+- Creating an Action File
 - YAML Configuration
+- Sample YAML
 - Terraform with GitHub Actions
 
 ---
 
-# 🛠️ Core Technologies
+# 🛠️ Technology Stack
 
-| Area | Technologies |
+| Category | Technologies |
 |---|---|
 | ☁️ Cloud | Microsoft Azure |
 | 🌐 Networking | VNet, DNS, IP, CIDR, NSG, ASG, VPN |
 | 🖥️ Compute | Azure VM, VMSS, App Service |
 | 💾 Storage | Azure Storage, Azure SQL |
 | 🔐 Security | NSG, ASG, Bastion, Identity |
-| 🏗️ IaC | Terraform |
+| 🔄 Disaster Recovery | Recovery Services Vault, Site Recovery |
+| 🏗️ Infrastructure as Code | Terraform |
 | 🔀 Version Control | Git & GitHub |
-| 🐳 Containers | Docker |
+| 🐳 Containerization | Docker |
 | ☸️ Orchestration | Kubernetes |
 | ⚙️ Configuration Management | Ansible |
-| 📈 Monitoring | Prometheus |
-| 📊 Visualization | Grafana |
-| 🔄 DevOps | Azure DevOps |
+| 📊 Monitoring | Prometheus |
+| 📈 Visualization | Grafana |
+| 🔷 DevOps Platform | Azure DevOps |
 | 🚀 CI/CD | GitHub Actions |
 | 📄 Configuration | YAML |
 | 🤖 Automation | Terraform & Ansible |
 
 ---
 
-# 🎯 Career Roles
+# 💼 Career Roles
 
-These technologies can help build skills for various **Cloud, DevOps, Infrastructure, Networking, System Administration, and Monitoring** roles.
+The combination of these technologies can provide a strong foundation for careers across **Cloud, DevOps, Infrastructure, Networking, Systems, Storage, Database, and Monitoring**.
 
 ## ☁️ Cloud Roles
 
@@ -268,7 +364,7 @@ These technologies can help build skills for various **Cloud, DevOps, Infrastruc
 - Infrastructure Engineer
 - Infrastructure Automation Engineer
 - Terraform Engineer
-- Infrastructure as Code (IaC) Engineer
+- Infrastructure as Code Engineer
 - Configuration Management Engineer
 
 ## 🐳 Container & Platform Roles
@@ -277,88 +373,285 @@ These technologies can help build skills for various **Cloud, DevOps, Infrastruc
 - Kubernetes Engineer
 - Container Platform Engineer
 - Platform Engineer
-- Junior Site Reliability Engineer (SRE)
+- Junior Site Reliability Engineer
+- SRE
 
 ## 🌐 Networking Roles
 
-- Cloud Network Engineer
 - Network Administrator
-- Cloud Network Administrator
 - Network Support Engineer
+- Cloud Network Engineer
+- Cloud Network Administrator
+- Network Infrastructure Engineer
 
 ## 🖥️ System Administration Roles
 
+- System Administrator
 - Linux Administrator
 - Linux System Administrator
 - Windows Administrator
-- System Administrator
+- Windows System Administrator
 
 ## 💾 Storage & Database Roles
 
 - Storage Administrator
 - Cloud Storage Engineer
-- Database Administrator (DBA)
+- Database Administrator
 - Cloud Database Support Engineer
 
-## 📊 Monitoring Roles
+## 📊 Monitoring & Observability Roles
 
 - Monitoring Engineer
 - Cloud Monitoring Engineer
 - Observability Engineer
 - Junior SRE
+- Infrastructure Monitoring Engineer
 
 ---
 
-# 🛡️ Technical Domains Covered
+# 🎯 Skills Covered
 
-- ☁️ Cloud Computing
-- 🌐 Networking
-- 🖥️ System Administration
-- 💾 Storage
-- 🗄️ Database
-- 🔐 Security & Identity
-- 🏗️ Infrastructure as Code
-- 🐳 Containerization
-- ☸️ Container Orchestration
-- ⚙️ Configuration Management
-- 📊 Monitoring & Observability
-- 🚀 DevOps & CI/CD
+## ☁️ Cloud
+
+- Cloud Computing
+- Cloud Service Models
+- Azure Fundamentals
+- Azure Infrastructure
+
+## 🌐 Networking
+
+- IP Addressing
+- CIDR
+- DNS
+- VNet
+- VNet Peering
+- NSG
+- ASG
+- Load Balancing
+- Application Gateway
+- Traffic Manager
+- Azure Front Door
+- VPN
+- Hub & Spoke
+
+## 🏗️ Infrastructure
+
+- Virtual Machines
+- VM Scale Sets
+- Storage
+- Azure SQL
+- Resource Groups
+- Azure Bastion
+
+## 🔐 Security & Identity
+
+- Network Security Groups
+- Application Security Groups
+- Identity Management
+- Microsoft Entra ID
+- Secure Storage Access
+
+## 🔄 Backup & Disaster Recovery
+
+- Recovery Services Vault
+- Azure Site Recovery
+- Backup
+- Restore
+- Geo-Replication
+- Failover
+- Test Failover
+- DR Drill
+
+## 🏗️ Infrastructure as Code
+
+- Terraform
+- Variables
+- Data Types
+- Data Blocks
+- Workspaces
+- Dependencies
+- Import
+- Modules
+- Provisioners
+
+## 🔀 Version Control
+
+- Git
+- GitHub
+- Branching
+- Pull Requests
+- Merge Conflicts
+- Personal Access Tokens
+- Hotfix Management
+
+## 🐳 Containers
+
+- Docker
+- Docker Images
+- Docker Containers
+- Dockerfile
+- Docker Networks
+- Docker Volumes
+- Docker Compose
+- Multi-Stage Builds
+- Image Optimization
+
+## ☸️ Container Orchestration
+
+- Kubernetes
+- Kubernetes Architecture
+- Services
+- LoadBalancer
+- Ingress
+- Namespaces
+- Helm
+
+## ⚙️ Automation
+
+- Ansible
+- Playbooks
+- Roles
+- Modules
+- Terraform Automation
+
+## 📊 Monitoring
+
+- Prometheus
+- Node Exporter
+- Alertmanager
+- Grafana
+- Dashboards
+- Metrics
+- Visualization
+
+## 🚀 DevOps & CI/CD
+
+- Azure DevOps
+- Self-Hosted Agents
+- YAML
+- GitHub Actions
+- Terraform Deployment
+- CI/CD Concepts
 
 ---
 
-# 🎓 Skills You Can Build
+# 👥 Combination of Roles
 
-By completing these topics, you can develop practical knowledge in:
+This learning path combines knowledge from multiple traditional and modern IT roles.
 
-**Cloud → Networking → Infrastructure → Automation → Containers → Kubernetes → Monitoring → DevOps → CI/CD**
+| Role | Primary Responsibility |
+|---|---|
+| ☁️ Cloud Engineer | Cloud Infrastructure |
+| 🌐 Network Administrator | Network Infrastructure |
+| 💾 Storage Administrator | Storage Management |
+| 🖥️ System Administrator | Server & System Management |
+| 🖥️ VMware Administrator | Virtualization |
+| 🪟 Windows Administrator | Windows Infrastructure |
+| 🐧 Linux Administrator | Linux Infrastructure |
+| 🗄️ Database Administrator | Database Management |
+| 🏗️ Infrastructure Engineer | Infrastructure Management |
+| 🚀 DevOps Engineer | Automation & CI/CD |
+| 📊 Monitoring Engineer | Monitoring & Observability |
+| ☸️ Platform Engineer | Container & Platform Management |
 
 ---
 
-# ⭐ Career Skill Stack
+# 📈 Learning Path
 
 ```text
-                 ☁️ AZURE
-                    │
-                    ▼
-              🏗️ TERRAFORM
-                    │
-                    ▼
-              🔀 GIT & GITHUB
-                    │
-                    ▼
-                 🐳 DOCKER
-                    │
-                    ▼
-              ☸️ KUBERNETES
-                    │
-                    ▼
-                ⚙️ ANSIBLE
-                    │
-                    ▼
-          📊 PROMETHEUS & GRAFANA
-                    │
-                    ▼
-             🔷 AZURE DEVOPS
-                    │
-                    ▼
-             🚀 GITHUB ACTIONS
+☁️ CLOUD COMPUTING
+        │
+        ▼
+🌐 NETWORKING
+        │
+        ▼
+🔷 AZURE
+        │
+        ▼
+🏗️ TERRAFORM
+        │
+        ▼
+🔀 GIT & GITHUB
+        │
+        ▼
+🐳 DOCKER
+        │
+        ▼
+☸️ KUBERNETES
+        │
+        ▼
+⚙️ ANSIBLE
+        │
+        ▼
+📊 PROMETHEUS & GRAFANA
+        │
+        ▼
+🔷 AZURE DEVOPS
+        │
+        ▼
+🚀 GITHUB ACTIONS
+🌟 Cloud & DevOps Skill Stack
+                    ☁️ CLOUD
+                       │
+                       ▼
+                  🔷 AZURE
+                       │
+                       ▼
+                🌐 NETWORKING
+                       │
+                       ▼
+                🏗️ TERRAFORM
+                       │
+                       ▼
+                🔀 GIT & GITHUB
+                       │
+                       ▼
+                   🐳 DOCKER
+                       │
+                       ▼
+                ☸️ KUBERNETES
+                       │
+                       ▼
+                  ⚙️ ANSIBLE
+                       │
+                       ▼
+             📊 PROMETHEUS
+                       │
+                       ▼
+                  📈 GRAFANA
+                       │
+                       ▼
+              🔷 AZURE DEVOPS
+                       │
+                       ▼
+              🚀 GITHUB ACTIONS
+💡 Objective
+
+Build strong practical knowledge of Cloud and DevOps technologies and develop the skills required to work with modern cloud infrastructure, automation, containers, monitoring, and CI/CD platforms.
+
+👨‍💻 Created By
+Saibaba Kola
+☁️ Cloud & DevOps Engineer
+
+This learning content has been created, organized, and practiced by me as part of my journey in Cloud Computing, Infrastructure, Automation, and DevOps.
+
+🛠️ Technologies
+
+☁️ Azure
+🏗️ Terraform
+🔀 Git & GitHub
+🐳 Docker
+☸️ Kubernetes
+⚙️ Ansible
+📊 Prometheus
+📈 Grafana
+🔷 Azure DevOps
+🚀 GitHub Actions
+
+<p align="center">
+⭐ Made with dedication by Saibaba Kola
+
+Learn • Practice • Build • Automate • Monitor • Grow 🚀
+
+</p>
+<p align="center"> <b>☁️ Cloud & DevOps Engineering | Continuous Learning | Continuous Improvement</b> </p> ```
