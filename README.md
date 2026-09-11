@@ -319,8 +319,17 @@ By completing these topics, you can develop practical knowledge in:
 
 ---
 
-## ⭐  Created or Made by 
+## 👨‍💻 Created By
 
-Saibaba Kola ( SME in Vcube Software Solutions ) 
+### **Saibaba Kola**
+
+**Cloud & DevOps Engineer**
+
+> Built with dedication, continuous learning, and hands-on practice in Cloud, DevOps, Automation, and Infrastructure.
+
+**Technologies:**  
+☁️ Azure • 🏗️ Terraform • 🔀 Git • 🐳 Docker • ☸️ Kubernetes • ⚙️ Ansible • 📊 Prometheus • 📈 Grafana • 🚀 Azure DevOps • GitHub Actions
 
 ---
+
+⭐ **Made with ❤️ by Saibaba Kola**
