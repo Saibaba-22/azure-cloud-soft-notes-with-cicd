@@ -208,8 +208,7 @@ A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Doc
 | ⚙️ Configuration Management | Ansible |
 | 📈 Monitoring | Prometheus |
 | 📊 Visualization | Grafana |
-| 🔄 DevOps | Azure DevOps |
-| 🚀 CI/CD | GitHub Actions |
+| 🚀 CI/CD 🔄 | Azure DevOps, GitHub Actions |
 | 💻 Automation | YAML, Terraform, Ansible |
 
 ---
@@ -317,3 +316,7 @@ By completing these topics, you can develop practical knowledge in:
 🚀 Azure DevOps
    +
 🔄 GitHub Actions
+
+#  Created or Made by 
+
+Saibaba Kola ( SME in Vcube Software Solutions ) 
