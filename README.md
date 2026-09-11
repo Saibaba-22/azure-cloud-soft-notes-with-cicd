@@ -1,209 +1,319 @@
-# ☁️ Azure Cloud with CI/CD
+# ☁️ Cloud & DevOps Engineering
 
-## 🛠️ Technologies & Practical Usage
+> **Learn Cloud • Automate Infrastructure • Deploy Applications • Monitor Systems**
 
-### ☁️ Cloud — Azure
-
-**Microsoft Azure** is used to provide cloud infrastructure and services for hosting applications.
-
-**Practical:**
-
-* Create Resource Groups
-* Create Virtual Networks and Subnets
-* Deploy Virtual Machines
-* Create Azure Kubernetes Service (AKS)
-* Configure Networking and Security
-* Deploy applications on Azure
+A practical learning path covering **Cloud Computing, Azure, Terraform, Git, Docker, Kubernetes, Ansible, Prometheus, Azure DevOps, and GitHub Actions**.
 
 ---
 
-### 🏗️ IaC — Terraform
+## 📚 Course Contents
 
-**Terraform** is used to create and manage Azure infrastructure using code.
+### 1. ☁️ Cloud Computing
 
-**Practical:**
-
-* Create Resource Groups
-* Create VNets and Subnets
-* Create NSGs
-* Deploy VMs
-* Create AKS
-* Manage infrastructure using `terraform plan` and `terraform apply`
-
----
-
-### 🔀 Version Control — Git
-
-**Git** is used to manage and track source-code changes.
-
-**Practical:**
-
-* Create repositories
-* Create branches
-* Commit changes
-* Merge branches
-* Push code to GitHub
-* Manage project versions
+- What is a Data Center
+- Parts of a Data Center
+- On-Premises Data Center
+- Cloud Data Center
+- Cloud Service Models
+- Basic Networking
+  - IP Address
+  - IP Address Classes
+  - CIDR
+  - DNS
+- Important Cloud Keywords & Definitions
 
 ---
 
-### 🐳 Containerization — Docker
+### 2. 🔷 Microsoft Azure
 
-**Docker** is used to package applications and dependencies into containers.
+#### Azure Fundamentals
+- Resource Groups
+- Azure Account Creation
+- Azure Basic Networking
+- IP Address
+- CIDR – Classless Inter-Domain Routing
+- DNS – Domain Name System
+- VNet – Virtual Network
 
-**Practical:**
+#### Azure Networking
+- VNet Peering
+- NSG – Network Security Group
+  - NIC-Level NSG
+  - Subnet-Level NSG
+- ASG – Application Security Group
+- Azure Load Balancer
+- Azure Application Gateway
+- Azure Traffic Manager
+- Azure Front Door
+- Hub & Spoke Architecture
+- Azure VPN
 
-* Create Dockerfiles
-* Build Docker images
-* Run containers
-* Manage container logs
-* Push images to a container registry
+#### Azure Compute & Applications
+- Azure Virtual Machines
+- Image Creation
+- VMSS – Virtual Machine Scale Sets
+- Azure App Service
+- Azure Bastion
 
----
+#### Azure Storage & Database
+- Storage Account
+- Storage Account Access & Identity Management
+- ASQL – Azure SQL
 
-### ☸️ Orchestration — Kubernetes
+#### Azure Backup & Disaster Recovery
+- RSV – Recovery Services Vault
+- Recovery Services Vault Recovery
 
-**Kubernetes** is used to deploy, manage, scale and maintain containers.
+#### Azure Identity & Monitoring
+- AAD – Azure Active Directory / Microsoft Entra ID
+- Azure Monitor
 
-**Practical:**
-
-* Create Pods
-* Create Deployments
-* Create Services
-* Scale applications
-* Perform rolling updates
-* Manage containerized applications on AKS
-
----
-
-### ⚙️ Configuration Management — Ansible
-
-**Ansible** is used to automate server configuration and application setup.
-
-**Practical:**
-
-* Install packages
-* Configure Linux servers
-* Install Docker/Nginx
-* Manage configuration files
-* Start and stop services
-* Automate server setup
-
----
-
-### 📊 Monitoring — Prometheus
-
-**Prometheus** is used to collect and store infrastructure and application metrics.
-
-**Practical:**
-
-* Monitor CPU
-* Monitor memory
-* Monitor Kubernetes nodes
-* Monitor Pods
-* Monitor application metrics
-* Create metric queries
+#### Azure Automation
+- Azure Logic Apps
 
 ---
 
-### 📈 Visualization — Grafana
+### 3. 🏗️ Terraform
 
-**Grafana** is used to visualize metrics collected by Prometheus.
-
-**Practical:**
-
-* Create dashboards
-* Monitor CPU and memory
-* Monitor Kubernetes
-* View application performance
-* Create alerts
-* Analyze system health
-
----
-
-### 🔄 CI/CD — GitHub Actions
-
-**GitHub Actions** is used to automate Continuous Integration and Continuous Deployment.
-
-**Practical:**
-
-```text
-Git Push
-   ↓
-Build
-   ↓
-Test
-   ↓
-Docker Build
-   ↓
-Push Image
-   ↓
-Deploy to Azure / AKS
-```
+- Introduction to Terraform
+- Azure VNet Peering
+- Terraform Variables
+- Virtual Machine Creation
+- Terraform Data Types
+- Terraform Workspaces
+- Depends On
+- Data Blocks
+- Terraform Import
+- Terraform Modules
+- Terraform Provisioners
 
 ---
 
-### 🔄 CI/CD — Azure DevOps
+### 4. 🔀 Git & GitHub
 
-**Azure DevOps** provides tools for building automated CI/CD pipelines.
+#### Version Control
+- Introduction to Version Control
+- Centralized Version Control System
+- Distributed Version Control System
 
-**Practical:**
-
-```text
-Developer
-   ↓
-Git Repository
-   ↓
-Azure Pipeline
-   ↓
-Build
-   ↓
-Test
-   ↓
-Docker Image
-   ↓
-Azure Container Registry
-   ↓
-AKS
-   ↓
-Application
-```
+#### Git & GitHub
+- GitHub Introduction
+- Git Areas
+- Git Installation
+- Personal Access Token (PAT)
+- Basic Git Commands
+- Git Branching Strategy
+- Merge Conflicts
+- Pull Requests
+- Hotfix
+- Token Management
+- Git Commands Reference
 
 ---
 
-## 🚀 Overall Technology Flow
+### 5. 🐳 Docker
+
+- Docker Introduction
+- Docker Architecture
+- Docker Internal Architecture
+- Docker Installation
+- Docker Image Operations
+- Docker Container Operations
+- Docker Networks
+- Docker Volumes
+- Dockerfile
+- Image Creation
+- Docker Image Optimization
+- Multi-Stage Dockerfile
+- Docker Compose
+
+---
+
+### 6. ☸️ Kubernetes
+
+- Docker vs Kubernetes
+- Kubernetes Introduction
+- Kubernetes Architecture
+- Kubernetes Services
+- Service LoadBalancer
+- Ingress
+- Namespaces
+- Helm Charts
+
+---
+
+### 7. ⚙️ Ansible
+
+- Ansible Introduction
+- Playbooks
+- Roles
+- Shell Module
+
+---
+
+### 8. 📊 Prometheus & Grafana
+
+#### Prometheus
+- Prometheus Introduction
+- Features & Components
+- Prometheus Architecture
+- Internal Architecture
+- Node Exporter
+- Alertmanager
+
+#### Grafana
+- Grafana Introduction
+- Connecting Grafana with Prometheus
+- Monitoring & Visualization
+
+---
+
+### 9. 🔷 Azure DevOps
+
+- Azure DevOps Introduction
+- Account Creation
+- Azure DevOps Components
+- Self-Hosted Agent
+- Terraform Deployment Using YAML
+- End-to-End CI/CD
+- Azure Boards
+
+---
+
+### 10. 🚀 GitHub Actions
+
+- GitHub Actions Introduction
+- Workflows
+- GitHub Actions Architecture
+- Internal Architecture
+- Creating Action Files
+- YAML Configuration
+- Terraform with GitHub Actions
+
+---
+
+# 🛠️ Core Technologies
+
+| Area | Technologies |
+|---|---|
+| ☁️ Cloud | Microsoft Azure |
+| 🌐 Networking | VNet, DNS, IP, CIDR, NSG, ASG, VPN |
+| 🖥️ Compute | Azure VM, VMSS, App Service |
+| 💾 Storage | Azure Storage, Azure SQL |
+| 🔐 Security | NSG, ASG, Bastion, Identity |
+| 🏗️ IaC | Terraform |
+| 🔀 Version Control | Git & GitHub |
+| 🐳 Containers | Docker |
+| ☸️ Orchestration | Kubernetes |
+| ⚙️ Configuration Management | Ansible |
+| 📈 Monitoring | Prometheus |
+| 📊 Visualization | Grafana |
+| 🔄 DevOps | Azure DevOps |
+| 🚀 CI/CD | GitHub Actions |
+| 💻 Automation | YAML, Terraform, Ansible |
+
+---
+
+# 🎯 Career Roles You Can Target
+
+The combination of these technologies can help you build skills for multiple infrastructure, cloud, and DevOps-oriented roles.
+
+### ☁️ Cloud Roles
+- **Cloud Engineer**
+- **Azure Cloud Engineer**
+- **Cloud Infrastructure Engineer**
+- **Cloud Support Engineer**
+- **Cloud Administrator**
+
+### 🚀 DevOps Roles
+- **DevOps Engineer**
+- **Junior DevOps Engineer**
+- **DevOps Support Engineer**
+- **CI/CD Engineer**
+- **Build & Release Engineer**
+
+### 🏗️ Infrastructure & Automation Roles
+- **Infrastructure Engineer**
+- **Infrastructure Automation Engineer**
+- **Terraform Engineer**
+- **Infrastructure as Code (IaC) Engineer**
+- **Configuration Management Engineer**
+
+### 🐳 Container & Platform Roles
+- **Docker Engineer**
+- **Kubernetes Engineer**
+- **Container Platform Engineer**
+- **Platform Engineer**
+- **Junior Site Reliability Engineer (SRE)**
+
+### 🌐 Networking Roles
+- **Cloud Network Engineer**
+- **Network Administrator**
+- **Cloud Network Administrator**
+- **Network Support Engineer**
+
+### 🖥️ System Administration Roles
+- **Linux Administrator**
+- **Linux System Administrator**
+- **Windows Administrator**
+- **System Administrator**
+
+### 💾 Storage & Database Roles
+- **Storage Administrator**
+- **Cloud Storage Engineer**
+- **Database Administrator (DBA)**
+- **Cloud Database Support Engineer**
+
+### 📊 Monitoring Roles
+- **Monitoring Engineer**
+- **Cloud Monitoring Engineer**
+- **Observability Engineer**
+- **Junior SRE**
+
+---
+
+# 👨‍💻 Technical Domains Covered
+
+- ☁️ **Cloud Computing**
+- 🌐 **Networking**
+- 🖥️ **System Administration**
+- 💾 **Storage**
+- 🗄️ **Database**
+- 🔐 **Security & Identity**
+- 🏗️ **Infrastructure as Code**
+- 🐳 **Containerization**
+- ☸️ **Container Orchestration**
+- ⚙️ **Configuration Management**
+- 📊 **Monitoring & Observability**
+- 🚀 **DevOps & CI/CD**
+
+---
+
+# 🎓 Skills You Can Build
+
+By completing these topics, you can develop practical knowledge in:
+
+**Cloud → Networking → Infrastructure → Automation → Containers → Kubernetes → Monitoring → DevOps → CI/CD**
+
+---
+
+## ⭐ Career Skill Stack
 
 ```text
 ☁️ Azure
-   ↑
+   +
 🏗️ Terraform
-   ↑
-🔀 Git
-   ↓
-🔄 GitHub Actions / Azure DevOps
-   ↓
+   +
+🔀 Git & GitHub
+   +
 🐳 Docker
-   ↓
-☸️ Kubernetes / AKS
-   ↓
-⚙️ Ansible
-   ↓
-📊 Prometheus
-   ↓
-📈 Grafana
-```
-
-## 🎯 Skills Covered
-
-☁️ Azure
-🏗️ Terraform
-🔀 Git
-🐳 Docker
+   +
 ☸️ Kubernetes
+   +
 ⚙️ Ansible
-📊 Prometheus
-📈 Grafana
+   +
+📊 Prometheus & Grafana
+   +
+🚀 Azure DevOps
+   +
 🔄 GitHub Actions
-🔄 Azure DevOps
-
-**End-to-End:** Cloud → IaC → Version Control → Containerization → Orchestration → Configuration → Monitoring → Visualization → CI/CD
